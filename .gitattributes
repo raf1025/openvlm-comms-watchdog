@@ -1,0 +1,4 @@
+# Shell scripts must stay LF or they break on the OpenWrt target (bad interpreter)
+*.sh   text eol=lf
+*.init text eol=lf
+install-openvlm-comms-watchdog.sh text eol=lf
